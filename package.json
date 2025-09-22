@@ -1,0 +1,31 @@
+{
+  "name": "eleventy-barebones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "start": "npm run clean && eleventy --serve",
+    "build": "npm run clean && eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-handlebars": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "babel-loader": "^10.0.0",
+    "clean-css": "^5.3.3",
+    "cssesc": "^3.0.0",
+    "memfs": "^4.43.0",
+    "out-url": "^1.2.2",
+    "rimraf": "^6.0.1",
+    "sass-embedded": "^1.93.0",
+    "webpack": "^5.101.3"
+  }
+}
